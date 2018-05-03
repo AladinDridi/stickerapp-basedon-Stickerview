@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/save"
+        android:orderInCategory="300"
+        android:title="save"
+        android:icon="@android:drawable/ic_menu_save"
+        android:actionLayout="@layout/activity_main2"
+        app:showAsAction="ifRoom"
+        >
+
+    </item>
+    <item
+        android:id="@+id/add"
+        android:orderInCategory="300"
+        android:title="add"
+        android:icon="@android:drawable/ic_menu_add"
+        android:actionLayout="@layout/activity_main2"
+        app:showAsAction="ifRoom"
+        ></item>
+    <item
+        android:id="@+id/share"
+        android:orderInCategory="300"
+        android:title="Share"
+        android:icon="@android:drawable/ic_menu_share"
+        android:actionLayout="@layout/activity_main2"
+        app:showAsAction="ifRoom"
+        ></item>
+    <item
+        android:id="@+id/refresh"
+        android:orderInCategory="300"
+        android:title="Refresh"
+        android:icon="@android:drawable/ic_menu_rotate"
+        android:actionLayout="@layout/activity_main2"
+        app:showAsAction="ifRoom"
+        ></item>
+    <item
+        android:id="@+id/quit"
+        android:orderInCategory="300"
+        android:title="Quit"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:actionLayout="@layout/activity_main2"
+        app:showAsAction="ifRoom"
+        ></item>
+</menu>
