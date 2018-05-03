@@ -1,6 +1,7 @@
 # stickerapp-basedon-Stickview
 sticker app
 in this app i resolved many thing for stickview android plugin like save and share the image : 
+<code>
  public void  onsave(ImageView imageView){
           this.imageView=imageView;
         BitmapDrawable draw=(BitmapDrawable)imageView.getDrawable();
@@ -27,7 +28,7 @@ in this app i resolved many thing for stickview android plugin like save and sha
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-        stickerView.save(outputfile);
+        stickerView.save(outputfile); </code>
 
     }
     2-also for add the sticker from the gallery : 
@@ -76,6 +77,7 @@ in this app i resolved many thing for stickview android plugin like save and sha
         builder.show();
     }
 4- you must add this on you gradle : ! 
+<code>
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:design:26.1.0'
@@ -84,7 +86,7 @@ dependencies {
     })
     implementation 'com.android.support:appcompat-v7:26.+'
     implementation 'org.lucasr.twowayview:twowayview:0.1.4'
-
+</code>
     implementation 'com.flying.xiaopo:sticker:1.6.0'
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     androidTestImplementation 'junit:junit:4.12'
